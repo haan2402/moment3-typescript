@@ -1,11 +1,12 @@
+<div class="container">
 <h2>Konvertera värden</h2>
 
 <div>
     <label for="value"></label>
-    <input type="number" id="value" [(ngModel)]="value" placeholder="Skriv in värde...">
+    <input type="number" id="value" [(ngModel)]="value">
 </div>
 
-<div>
+<div class="buttons">
     <button (click)="celsiusToFahrenheit()">°F</button>
     <button (click)="fahrenheitToCelsius()">°C</button>
     <button (click)="meterToFeet()">Fot</button>
@@ -15,4 +16,4 @@
 <div>
     <p>Resultat: {{ result }}</p>
 </div>
-
+</div>
