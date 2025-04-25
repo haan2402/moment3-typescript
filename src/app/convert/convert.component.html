@@ -1,1 +1,18 @@
-<h2>Konvertera</h2>
+<h2>Konvertera värden</h2>
+
+<div>
+    <label for="value"></label>
+    <input type="number" id="value" [(ngModel)]="value" placeholder="Skriv in värde...">
+</div>
+
+<div>
+    <button (click)="celsiusToFahrenheit()">°F</button>
+    <button (click)="fahrenheitToCelsius()">°C</button>
+    <button (click)="meterToFeet()">Fot</button>
+    <button (click)="feetToMeter()">Meter</button>
+</div>
+
+<div>
+    <p>Resultat: {{ result }}</p>
+</div>
+
