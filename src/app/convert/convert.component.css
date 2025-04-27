@@ -1,3 +1,4 @@
+/*styling for convert page*/
 h2 {
     font-size: 1.4em;
     text-align: center;
@@ -52,7 +53,7 @@ p {
     font-weight: bold;
     font-size: 1.2em;
 }
-
+/*styling smaller screens*/
 @media (max-width: 768px) {
     .container {
         max-width: 450px;

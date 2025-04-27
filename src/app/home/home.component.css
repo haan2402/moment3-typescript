@@ -1,3 +1,4 @@
+/*styling for home page*/
 .start-page {
     display: flex;
     flex-direction: row;
@@ -54,6 +55,7 @@ button:hover {
     background-color: #4e4e4e;
 }
 
+/*styling smaller screens*/
 @media (max-width: 768px) {
     .start-page {
         flex-direction: column;

@@ -7,6 +7,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
+//picture for startpage
 export class HomeComponent {
   startImage: string = "/images/degrees.jpg";
 }
