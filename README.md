@@ -1,59 +1,38 @@
 # Moment3Typescript
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
+Denna uppgift har gått ut på att bygga en webbplats med hjälp av Angular. Webbplatsen ska innehålla minst 3 undersidor, och 
+den ska innehålla komponenter och minst en bild. Det ska finnas en sida för att konvertera värden mellan Celsius och Fahrenheit, och mellan meter och fot.
 
-## Development server
+## Installation
+För att skapa ett Angular projekt har jag börjat med att installera Angular CLI där jag kört kommandot:
 
-To start a local development server, run:
+```bash
+npm install -g anugular/cli
+```
+För att sedan skapa själva projektet har jag kört:
+
+```bash
+ng new my-angular-app
+```
+Har kört detta kommando för att få en lokal liveserver:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Använt mig av
+- Angular
+- HTML
+- CSS
+- Typescript
 
-## Code scaffolding
+## Struktur
+- public/ - har har jag lagt in bilden som ska vara med
+- src/app - har är de olika komponenterna för undersidor samt kompnenter för header och footer.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Jag har som sagt skapat olika komponenter för undersidor och header och footer. När man skapar en komponent så skapas automatiskt fyra filer med den, 
+i CSS har jag gjort styling för varje komponent, i HTML har jag lagt in HTML-kod som ska synas för den undersidan, och i TS har jag lagt in TypeScript kod.
+i styles.css har jag in den grundläggande globala stylingen som ska vara för alla sidor.
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Av
+Hanna Angeria, haan2402@student.miun.se
